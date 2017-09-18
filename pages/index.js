@@ -1,6 +1,17 @@
 import Header from '../components/Header'
-const Page = () => (
-  <Header />
-)
+import Stories from '../components/Stories'
 
-export default Page
+import React, { Component } from 'react';
+
+class componentName extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <Stories />
+      </div>
+    );
+  }
+}
+
+export default componentName;
